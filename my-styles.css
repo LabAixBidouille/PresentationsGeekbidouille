@@ -1,0 +1,10 @@
+html {
+background-color: white;
+}
+.slide h1 {
+color: red;
+font-weight: bold;
+}
+.slide div {
+padding-top: 50px;
+}
