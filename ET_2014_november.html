@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(//fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(//fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Progress
+1. ARM Cortex-M4 peripherals roughly presented: NVIC, Systick mainly
+2. ATSAM4S micro-controller presented to trainees
+3. 4 examples presented to teach how to use Inputs/Outputs and interrupts
+- ex1_basic_led: How to power an LED
+- ex2_basic_button: Blink LEDs when pressing a button (polling)
+- ex3_advanced_button: Blink LEDs when pressing a button (interrupt)
+- ex4_led_blink: Blink a LED every second using Systick
+
+---
+class: center, middle
+# News
+- Espruino port for SAM4S-Xplained began with step-by-step documentation
+
+---
+class: center, middle
+# Next
+- Trainee have to develop a simple example using SAM4S UART to exchange characters with a PC
+- Move on Espruino port and do first git pull request
+
+    </textarea>
+    <script src="//gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
