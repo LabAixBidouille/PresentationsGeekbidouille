@@ -22,4 +22,5 @@ The LAB owning a bunch of Atmel SAM4S Xplained boards (ARM Cortex-M4 based), the
 
 # LAB Embedded Team
 Some very interesting open source projects are already listed and will be the initial targets.
+
 Updates will appear in a (ir)regular basis on the LAB Wiki
